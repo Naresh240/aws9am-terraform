@@ -10,12 +10,12 @@ variable "instance_type" {
 
 variable "key_name" {
     description = "The name of the key pair to use for SSH access"
-    default     = "awsdevops"
+    default     = "aws8pm"
 }
 
 variable "instance_count" {
     description = "The number of instances to create"
-    default     = 0
+    default     = 1
 }
 
 variable "tags" {
