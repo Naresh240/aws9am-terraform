@@ -15,7 +15,7 @@ variable "key_name" {
 
 variable "instance_count" {
     description = "The number of instances to create"
-    default     = 2
+    default     = 0
 }
 
 variable "tags" {
