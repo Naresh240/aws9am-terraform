@@ -1,17 +1,10 @@
-list "aws_instance" "unmanaged" {
+list "aws_security_group" "example" {
   provider = aws
  
   config {
-    region = "us-east-1"
- 
     filter {
       name   = "tag:Name"
-      values = ["unmanaged"]
-    }
- 
-    filter {
-      name   = "instance-state-name"
-      values = ["running"]
+      values = ["allow_ssh"]
     }
   }
 }
