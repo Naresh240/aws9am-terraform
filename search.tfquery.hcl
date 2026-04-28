@@ -6,7 +6,7 @@ list "aws_instance" "unmanaged" {
  
     filter {
       name   = "tag:Name"
-      values = ["unmanaged"]
+      values = ["Helloworld"]
     }
  
     filter {
