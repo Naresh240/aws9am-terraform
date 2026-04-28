@@ -15,5 +15,3 @@ list "aws_instance" "unmanaged" {
     }
   }
 }
-
-resource
